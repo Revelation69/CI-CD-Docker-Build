@@ -2,6 +2,7 @@
 FROM nginx:latest
 
 # Copy the HTML file to the appropriate directory in the container
+
 COPY index.html /usr/share/nginx/html
 
 # Expose port 80
