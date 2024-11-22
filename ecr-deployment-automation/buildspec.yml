@@ -7,8 +7,8 @@ phases:
 
   pre_build:
     commands:
-      - chmod +x build-image.sh push-image.sh
       - cd ecr-deployment-automation
+      - chmod +x build-image.sh push-image.sh
       - ./build-image.sh
 
   build:
