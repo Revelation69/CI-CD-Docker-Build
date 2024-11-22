@@ -13,5 +13,4 @@ phases:
 
   build:
     commands:
-      - cd ecr-deployment-automation
       - ./push-image.sh
